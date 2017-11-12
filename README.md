@@ -1,5 +1,5 @@
 # UPRA-EPS
-UPRA Electric Power(distributor) Subsystem
+UPRA Electric Power(distributon) Subsystem
 ----
 This subsystem provides the designated voltage levels for other subsystems and payloads, monitors power consumption, battery charge, battery temperature and switch off malfunctioned modules.
 
