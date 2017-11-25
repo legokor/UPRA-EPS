@@ -7157,13 +7157,13 @@ type RDH, grid 15 mm</description>
 <part name="T1" library="transistor-neu-to92" deviceset="*-NPN-" device="TO92-ECB" technology="BC368"/>
 <part name="D1" library="upra_lib4eagle" deviceset="TL431" device="-TO-92" value="TL431"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C1206"/>
-<part name="RI" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="RI" library="resistor" deviceset="R-EU_" device="R1206" value="18R"/>
 <part name="BATT1" library="upra_lib4eagle" deviceset="BATTERY" device="-PLACEHOLDER"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="" value="Amper-Meter Connection"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="" value="Volt-Meter Connection"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R1206"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device="" value="Battery Tester Breadboard"/>
 </parts>
 <sheets>
@@ -7176,7 +7176,7 @@ type RDH, grid 15 mm</description>
 <vertex x="87.63" y="58.42"/>
 </polygon>
 <text x="92.71" y="60.96" size="2.54" layer="97">I=</text>
-<text x="97.79" y="63.5" size="2.54" layer="97">4V</text>
+<text x="96.52" y="63.5" size="2.54" layer="97">2.5V</text>
 <text x="97.79" y="58.42" size="2.54" layer="97">RI</text>
 <wire x1="96.52" y1="62.23" x2="102.87" y2="62.23" width="0.1524" layer="97"/>
 </plain>
